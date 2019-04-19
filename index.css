@@ -1,0 +1,30 @@
+@font-face{
+	font-family:"DIN Next W01 Regular";
+
+    /* Works - Valid EOT file*/
+    /*src:url("da088ecc-a53c-4831-a95b-6fd81b5b338a.eot") format("eot");*/
+
+    /* Works - 404 EOT file */
+    /*src:url("da088ecc-a53c-4831-a95b-6fd81b5b338a.eotjkndfshjksdkjfhkjsdfsdjkfdjksfhksdfds") format("eot");*/
+
+    /* DOES NOT WORK - Valid WOFF file */
+    src:url("c5a7f89e-15b6-49a9-8259-5ea665e72191.woff") format("woff");
+
+    /* DOES NOT WORK - Valid WOFF file without format hint*/
+    /*src:url("c5a7f89e-15b6-49a9-8259-5ea665e72191.woff");*/
+    
+    /* DOES NOT WORK - Valid WOFF2 file */
+    /*src:url("44e7b0fa-6c8d-43c2-b19e-f1e3ce9ea57c.woff2") format("woff2");*/
+
+    /* DOES NOT WORK - Valid TTF file */
+    /*src:url("868c94b5-ca49-46b7-b62b-297f8d861125.ttf") format("truetype");*/
+
+    /* Works - Valid SVG file */
+    /*src:url("e3145f65-29b5-4f7f-8c6e-2dc135021b6a.svg") format("svg");*/
+
+    /* Works - Combination of Valid items above */
+    /*src:url("da088ecc-a53c-4831-a95b-6fd81b5b338a.eot") format("eot"), url("e3145f65-29b5-4f7f-8c6e-2dc135021b6a.svg") format("svg");*/
+}
+
+/* DIN Regular */
+	body, .fa > span{font-family: 'DIN Next W01 Regular', Arial, Helvetica, sans-serif;}
